@@ -7,7 +7,7 @@ async function conn() {
 
     try {
 
-        await mongoose.connect(process.env.MONGO_DB)
+        await mongoose.connect("mongodb+srv://dyda91:dida1991@cluster0.hov2861.mongodb.net/")
 
         console.log("Conectado ao banco")
 
